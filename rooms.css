@@ -1,0 +1,123 @@
+Body {
+    color: rgba(132, 129, 122, 1.0);
+}
+
+#room-banner {
+    max-width: 960px;
+    margin: 15px auto 0 auto;
+}
+
+#room-banner img {
+    width: 100%;
+    max-width: 960px;
+    border-radius: 2px;
+    height: auto;
+}
+
+#room-content {
+    color: rgba(132, 129, 122, 1.0);
+    max-width: 960px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1 {
+    color: rgba(204, 174, 98, 1.0);
+    font-family: 'Tangerine', serif;
+    padding: 20px;
+    font-size: 4rem;
+    text-align: center;
+    margin: auto auto;
+}
+
+h2 {
+    color: rgba(204, 174, 98, 1.0);
+}
+
+.room-section {
+    border-top: 1px dashed rgba(204, 174, 98, .50);
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.room-section ul {
+    margin: 0 auto;
+    padding: 0 0 0 25px;
+}
+
+#room-lead {
+    font-size: 20px;
+    line-height: 34px;
+    padding: 0 10px 20px 10px;
+    text-align: center;
+}
+
+#room-items, #check-in-policies {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#room-price {
+    font-size: 32px;
+    color: rgba(204, 174, 98, 1.0);
+    margin: 0;
+}
+
+.room-section h2 {
+    font-size: 22px;
+    margin: 0;
+}
+
+#inquiries-reservation-section p {
+    color: gray;
+    margin: 0;
+}
+
+li {
+    line-height: 28px;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 25px;
+    list-style-type: circle;
+}
+
+.gold {
+    color: rgba(204, 174, 98, 1.0);
+}
+
+input, textarea {
+    display: block;
+    margin: 5px 0;
+    line-height: 34px;
+    width: 390px;
+    border: 1px solid silver;
+    padding-left: 5px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media (min-width: 768px) {
+    #rooms, #room-price-section, #checkin-policy-section, #inquiries-reservation-section {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .room-section h2 {
+        padding: 0;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
