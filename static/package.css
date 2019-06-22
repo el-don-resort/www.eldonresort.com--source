@@ -123,6 +123,7 @@ body {
      #package-price-section,
      #package-inclusions-section,
      #inquiries-reservation-section,
+     #bank-section,
      .package-food-section {
        display: grid;
        grid-template-columns: 40% 60%;
