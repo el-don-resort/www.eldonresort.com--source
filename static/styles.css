@@ -147,10 +147,6 @@ body {
     content: url(https://res.cloudinary.com/stmi/image/upload/v1557216130/eldonresort/border_b9t8f2.png)
 }
 
-#banner div {
-    min-height: 55vw
-}
-
 #banner2 {
     background-color: #066885
 }
@@ -313,32 +309,6 @@ body {
     }
 }
 
-.slide {
-    margin-bottom: 10px
-}
-
-.slide div:nth-child(odd) {
-    background-color: wheat;
-    padding-top: 75%
-}
-
-.slide div:nth-child(2n) {
-    background-color: #fff
-}
-
-.slick-slide {
-    font-size: .85em;
-    padding: 3px
-}
-
 @media (min-width:576px) {
-    .slide {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 5px 5px;
-        width: 100%
-    }
-    .slide:nth-child(2n) {
-        direction: rtl
-    }
+
 }
