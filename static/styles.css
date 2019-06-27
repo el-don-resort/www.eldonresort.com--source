@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond);
 @import url(https://fonts.googleapis.com/css?family=Tangerine);
+h3 {
+    font-family: Garamond, serif;
+}
+
 #logo {
     display: block;
     margin: 0 auto;
