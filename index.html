@@ -28,24 +28,42 @@
           <a aria-current="page" href="/" class="w-100">
             <img src="/static/logo.4e81bca5.png" id="logo">
           </a>
-          <div class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton">
+          <div class="dropdown-menu w-100 text-center" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="/">Home</a>
-            <a class="dropdown-item" href="/casa-la-jardin">Casa La Jardin</a>
-            <a class="dropdown-item" href="/casa-del-mar">Casa del Mar</a>
-            <a class="dropdown-item" href="/day-tour-package">Day tour package</a>
-            <a class="dropdown-item" href="/meetings-and-events">Meetings and Events</a>
-            <a class="dropdown-item" href="/pictorial-package">Pictorial Package</a>
+            <div class="dropdown-divider"></div>
+            <p class="m-0"><span style="color: silver">Villas</span>
+                <a class="dropdown-item" href="/casa-la-jardin">Casa La Jardin</a>
+                <a class="dropdown-item" href="/casa-del-mar">Casa del Mar</a>
+            </p>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/food-and-dining">Food and Dining</a>
+            <div class="dropdown-divider"></div>
+            <p class="m-0"><span style="color: silver">Packages</span>
+              <a class="dropdown-item" href="/day-tour-package">Day tour package</a>
+              <a class="dropdown-item" href="/meetings-and-events">Meetings and Events</a>
+              <a class="dropdown-item" href="/pictorial-package">Pictorial Package</a>
+            </p>
+            <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="/inquiries">Inquiries</a>
           </div>
         </div>
         <div id="navs-container" class="w-100">
           <div id="navs">
             <a href="/">Home</a>
-            <a href="/casa-la-jardin">Casa La Jardin</a>
-            <a href="/casa-del-mar">Casa del Mar</a>
-            <a href="/day-tour-package">Day tour package</a>
-            <a href="/meetings-and-events">Meetings and Events</a>
-            <a href="/pictorial-package">Pictorial Package</a>
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+            aria-expanded="false">Villas</a>
+          <div class="dropdown-menu w-100 text-center">
+            <a class="dropdown-item p-2" href="/casa-la-jardin">Casa La Jardin</a>
+            <a class="dropdown-item p-2" href="/casa-del-mar">Casa del Mar</a>
+          </div>
+            <a href="/food-and-dining">Food and Dining</a>
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">Packages</a>
+            <div class="dropdown-menu w-100 text-center">
+              <a class="dropdown-item p-2" href="/day-tour-package">Day tour package</a>
+              <a class="dropdown-item p-2" href="/meetings-and-events">Meetings and Events</a>
+              <a class="dropdown-item p-2" href="/pictorial-package">Pictorial Package</a>
+            </div>
             <a href="/inquiries">Inquiries</a>
           </div>
         </div>
@@ -149,7 +167,9 @@
         <section class="section">
           <div class="responsive-widths row bg-white ">
             <div id="dining-photo" class="col-xs-12 col-md-6 p-0">
-              <img src="https://res.cloudinary.com/stmi/image/upload/v1561675845/eldonresort/el-don-resort-food-and-dining_nynvp5.jpg" class="w-100"/>
+              <img
+                src="https://res.cloudinary.com/stmi/image/upload/v1561675845/eldonresort/el-don-resort-food-and-dining_nynvp5.jpg"
+                class="w-100" />
             </div>
             <div class="col-xs-12 col-md-6 p-4">
               <h2 class="header">Food and Dining</h2>
@@ -224,7 +244,7 @@
     crossorigin="anonymous"></script>
   <script>
     $(document).ready(function () {
-      $('.carousel').carousel({interval: 2500})
+      $('.carousel').carousel({ interval: 2500 })
     });
   </script>
 </body>
