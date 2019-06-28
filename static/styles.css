@@ -296,6 +296,10 @@ body {
     grid-gap: 10px;
 }
 
+.gold {
+    color: rgba(204, 174, 98, 1.0);
+}
+
 @media (min-width:576px) {
     #banner h2 {
         font-size: 4em
