@@ -280,6 +280,12 @@ body {
     padding: 5px
 }
 
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+}
+
 @media (min-width:576px) {
     #banner h2 {
         font-size: 4em
